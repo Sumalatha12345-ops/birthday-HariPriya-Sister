@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday Haripriya 🎂</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ffdde1, #ee9ca7);
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            color: #444;
+        }
+
+        .container {
+            margin-top: 80px;
+        }
+
+        h1 {
+            font-size: 55px;
+            color: #d63384;
+        }
+
+        h2 {
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .emoji {
+            font-size: 70px;
+            animation: float 2s infinite;
+        }
+
+        @keyframes float {
+            0%,100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+
+        button {
+            padding: 12px 25px;
+            font-size: 18px;
+            background-color: #d63384;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #b0256a;
+        }
+
+        #msg {
+            margin-top: 20px;
+            font-size: 22px;
+            color: #222;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="emoji">🎂🎉💖</div>
+    <h1>Happy Birthday</h1>
+    <h2>Dear Haripriya 💕</h2>
+    <p>May your day be filled with love, laughter, and endless happiness ✨</p>
+
+    <button onclick="showWish()">Click for Special Wish 🎁</button>
+
+    <p id="msg"></p>
+</div>
+
+<script>
+    function showWish() {
+        document.getElementById("msg").innerHTML = 
+        "You are an amazing sister 💖 May all your dreams come true Haripriya! 🌸🎂";
+    }
+</script>
+
+</body>
+</html>
